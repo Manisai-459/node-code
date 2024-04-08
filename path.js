@@ -1,0 +1,8 @@
+const path = require('path')
+console.log(path.sep)
+const filepath = path.join('subfolder','mama.txt')
+console.log(filepath)
+console.log("base name : "+path.basename(filepath))
+console.log(__dirname)
+const absolute = path.resolve(__dirname,'subfolder','mama.txt')
+console.log(absolute)
